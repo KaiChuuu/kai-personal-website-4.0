@@ -1,0 +1,16 @@
+[
+  {
+    "company": "SAP",
+    "duration": "Jan 2022 - Dec 2022",
+    "role": "Full-stack Developer Intern",
+    "description": "During my year at SAP, I worked as a full-stack developer focused on both frontend UI and backend API development for Partner dashboards within SAPForMe.\n\nMy frontend work utilized Fiori 3 and SAP UI5 Evolution to create human-centered designs, while my backend efforts involved building event-driven APIs with Vert.x to extract and convert satellite data into usable JSON data.\n\nMy responsibilities also included generating mock data, writing comprehensive JUnit tests, and performing full E2E testing.\n\nAmong my key achievements were the completion of two major deliverables in 2022, specifically the Solex and Partner Competencies dashboards.\n\nI also led the E2E testing framework for partner dashboards, establishing interaction tests for functionality verification in the staging environment.\n\nAdditionally, as the sole developer in the NA timezone, I managed on-call duties, resolving deployment issues, pipeline challenges, and debugging across the team’s projects.",
+    "icon": "/images/companies/sap-logo.png"
+  },
+  {
+    "company": "ArcadeQuest",
+    "duration": "Feb 2021 - Sept 2021",
+    "role": "Software Engineer Intern",
+    "description": "In the past, ArcadeQuest was a virtual arcade where players competed in tournaments to win prizes.\n\nAs a software engineer, I developed a system architecture to manage client requests for Fortnite custom lobby tournaments. I used Amazon services to route traffic across EC2 instances, supporting Fortnite AI clients, with a focus on scalability and efficient bot usage. I also created the AI clients in Python that connected to Epic Games APIs, facilitating secure and custom matches.\n\nAdditionally, I contributed to designing frontend components in AdobeXD and worked on the development for the mobile app's administration, login, and signup pages.",
+    "icon": "/images/companies/aq-logo.png"
+  }
+]
