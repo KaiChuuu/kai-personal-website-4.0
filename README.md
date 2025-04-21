@@ -4,12 +4,8 @@ Welcome to my personal website! This is the online portfolio showcasing my work,
 
 Link to website, https://kaichuuu.github.io/
 
-## Deployment steps
+## Key Deployment Notes for nextjs on Github
 
-Commit work first, then run
-
-```PowerShell
-npm run build
-
-npm run deploy
-```
+1. In the deployment branch for nextjs project (gh-pages), the file ```.nojekyll``` must be included for Tailwind styling to render.
+2. nextjs ```<Images/>``` cannot be used with Github, it must be ```<img/>```. You will need to ignore the warnings for Eslint, ```/* eslint-disable @next/next/no-img-element */``` (other ways can work too)
+3. To run locally with ```npm run dev```, the ```nextConfig``` config's in ```next.config.ts``` need to be commented out
