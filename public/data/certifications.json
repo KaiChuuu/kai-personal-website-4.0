@@ -1,0 +1,16 @@
+[
+  {
+    "title": "C++ Certified Associate Programmer",
+    "issuer": "C++ Institute",
+    "date": "June 13, 2023",
+    "link": "https://www.credly.com/badges/596af324-951f-4d4f-a57d-c6e4a1c70656/public_url",
+    "icon": "/images/certifications/cpa-c-certified-associate-programmer.png"
+  },
+  {
+    "title": "AWS Certified Cloud Practitioner",
+    "issuer": "AWS Training and Certification",
+    "date": "August 03, 2024",
+    "link": "https://www.credly.com/badges/788fc21c-7a4a-46a3-90a7-5a634a2aebae/public_url",
+    "icon": "/images/certifications/aws-certified-cloud-practitioner.png"
+  }
+]
