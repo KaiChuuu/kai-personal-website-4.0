@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function VJGA() {
   return (
     <section
@@ -17,15 +15,11 @@ export default function VJGA() {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center space-y-6">
-        <div className="relative w-32 h-32">
-          <Image
-            src="/images/vjga-logo.png"
-            alt="VJGA Logo"
-            fill
-            className="object-contain rounded shadow-md"
-            priority
-          />
-        </div>
+        <img
+          src="/images/vjga-logo.png"
+          alt="VJGA Logo"
+          className="w-32 h-auto rounded shadow-md"
+        />
 
         <h2 className="text-3xl sm:text-4xl font-bold text-green-300">
           Supporting VJGA

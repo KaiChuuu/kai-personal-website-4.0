@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 
 type Certification = {
   title: string;
@@ -38,7 +37,7 @@ export default function Certifications() {
             className="bg-neutral-800 hover:bg-neutral-700 transition p-6 rounded-2xl shadow-lg text-left space-y-4 border border-neutral-700"
           >
             <div className="flex items-center gap-4">
-              <Image
+              <img
                 src={cert.icon}
                 alt={`${cert.issuer} logo`}
                 width={100}

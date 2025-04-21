@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { FaGithub, FaLinkedin, FaItchIo } from "react-icons/fa";
 
 export default function About() {
@@ -13,7 +12,7 @@ export default function About() {
       <div className="relative z-10 max-w-5xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-20 lg:gap-10 xl:gap-20 h-full">
         {/* Profile image */}
         <div className="w-72 relative overflow-hidden shadow-lg border-4 border-white-400">
-          <Image
+          <img
             src="/images/kai-image.jpg"
             alt="Profile photo"
             width={480}

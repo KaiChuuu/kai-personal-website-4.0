@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 
 // https://pixabay.com/illustrations/painting-river-mountains-nature-7524693/   Mountain Bg
 
@@ -47,11 +46,10 @@ export default function Work() {
               {/* Icon */}
               <div className="w-full lg:w-50 h-50 bg-white flex items-center justify-center rounded-md shadow-md shrink-0">
                 <div className="relative w-40 h-40 sm:w-50 sm:h-50 lg:w-40 lg:h-40">
-                  <Image
+                  <img
                     src={job.icon}
                     alt={`${job.company} logo`}
-                    fill
-                    className="object-contain"
+                    className="object-contain w-full h-full"
                   />
                 </div>
               </div>
