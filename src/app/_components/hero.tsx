@@ -39,7 +39,7 @@ export default function Hero() {
 
         <div className="mt-8 flex space-x-6 text-4xl">
           <a
-            href="https://www.linkedin.com/in/kai-chu-b482541b0/"
+            href="https://www.linkedin.com/in/kaichuuu/"
             target="_blank"
             rel="noopener noreferrer"
           >

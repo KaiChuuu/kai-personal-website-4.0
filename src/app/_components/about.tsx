@@ -45,7 +45,7 @@ export default function About() {
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start gap-6 text-4xl mt-4">
             <a
-              href="https://www.linkedin.com/in/kai-chu-b482541b0/"
+              href="https://www.linkedin.com/in/kaichuuu/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400 transition"
